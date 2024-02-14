@@ -1,0 +1,52 @@
+.grid{
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+    'hd hd hd hd hd hd'
+    'nv art art art as as'
+    'nv art art art as as'
+    'nv art art art as as'
+    'nv art art art as as'
+    'fr fr fr fr fr fr'
+    ;
+    width: 1000px;
+}
+div.nv a{
+    display: block;
+    margin-bottom: 50px;
+}
+.nv{
+    grid-area: nv;
+    background: rgb(219, 222, 223);
+    font-size: 25px;
+    text-align: center;
+}
+.hd{
+    grid-area: hd;
+    background: rgb(219, 222, 223);
+    font-size: 24px;
+}
+.art{
+    grid-area: art;
+    background: rgb(219, 222, 223);
+    font-size: 20px;
+    text-align: left;
+}
+.as{
+    grid-area: as;
+    background: rgb(219, 222, 223);
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.fr{
+    grid-area: fr;
+    background: rgb(219, 222, 223);
+    font-size: 25px;
+}
+img{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,71 @@
+img {
+    height: 100px;
+    width: 150px;
+    margin-top: 50px;
+}
+.fir{
+  animation: first 5s;  
+}
+.sec{
+    animation: second 5s;
+}
+.third{
+    animation: third 5s;  
+  }
+.fourth{
+      animation: fourth 5s;
+}
+@keyframes first{
+    0%{
+        transform: perspective(100px) rotateY(50deg);
+        margin-left: 100px;
+    }
+    50%{
+        margin-left: 2px;
+    }
+    100%{
+        margin-left: 2px;
+    }
+}
+@keyframes second{
+    0%{
+        transform: perspective(100px) rotateY(50deg);
+        margin-left: -130px;
+    }
+    50%{
+        margin-left: -140px;
+    }
+    100%{
+        margin-left: 2px;
+        filter: blur(10px);
+    }
+}
+@keyframes third{
+    0%{
+        transform: perspective(100px) rotateY(50deg);
+        margin-left: -130px;
+    }
+    50%{
+        margin-left: -140px;
+    }
+    100%{
+        margin-left: 2px;
+        filter: grayscale(1);
+    }
+}
+@keyframes fourth{
+    0%{
+        transform: perspective(100px) rotateY(50deg);
+        margin-left: -130px;
+    }
+    50%{
+        margin-left: -140px;
+    }
+    100%{
+        margin-left: 2px;
+        filter: invert(1);
+    }
+}
+h1{
+    text-align: center;
+}

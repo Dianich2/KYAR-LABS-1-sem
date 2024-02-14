@@ -1,0 +1,38 @@
+ul.nav {
+    list-style: none;
+    margin: 0px 0px 0px 0px ;
+    padding: 0px 0px 0px 0px ;
+}
+ul.nav li{
+    margin-bottom: 80px;
+}
+ul.nav a{ display: block;
+    width: auto;
+}
+aside{
+    width: 150px;
+    position: relative;
+    left: 1200px;
+}
+p{
+    position: absolute;
+    display: inline-block;
+    width: 1150px;
+    height: 100px;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    top: -690px;
+}
+a:link{
+    color: red;
+    text-decoration: none;
+}
+a:visited{
+    color:#8B0000;
+}
+a:hover{
+    color:green;
+}
+a:active{
+    color: rgb(184, 134, 11);
+}

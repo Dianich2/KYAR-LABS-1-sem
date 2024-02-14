@@ -1,0 +1,164 @@
+img{
+    height: 100px;
+    width: 150px;
+}
+div{
+    outline: 2px solid red;
+    display: inline-block;
+    width: 150px;
+    height: 520px;
+    margin-left: 650px;
+}
+.fir{
+    animation: fir 5s infinite linear;
+}
+.sec{
+    animation: sec 5s infinite linear;
+}
+.thi{
+    animation: thi 5s infinite linear;
+}
+.fou{
+    animation: fou 5s infinite linear;
+}
+.fiv{
+    animation: fiv 5s infinite linear;
+}
+@keyframes fir{
+    0%{
+        opacity: 1;
+        top: 0px;
+        left: 0px;
+    }
+    20%{
+        opacity: 0;
+        z-index: -1;
+    }
+    40%{
+        opacity: 0;
+        z-index: -1;
+    }
+    60%{
+        opacity: 0;
+        z-index: -1;
+    }
+    80%{
+        opacity: 0;
+        z-index: -1;
+    }
+    100%{
+        opacity: 0;
+        z-index: -1;
+    }
+}
+@keyframes sec{
+    0%{
+        opacity: 0;
+        z-index: -1;
+    }
+    20%{
+        opacity: 1;
+        top: 0px;
+        left: 0px;
+    }
+    40%{
+        opacity: 0;
+        z-index: -1;
+    }
+    60%{
+        opacity: 0;
+        z-index: -1;
+    }
+    80%{
+        opacity: 0;
+        z-index: -1;
+    }
+    100%{
+        opacity: 0;
+        z-index: -1;
+    }
+}
+@keyframes thi{
+    0%{
+        opacity: 0;
+        z-index: -1;
+    }
+    20%{
+        opacity: 0;
+        z-index: -1;
+    }
+    40%{
+        opacity: 1;
+        top: 0px;
+        left: 0px;
+    }
+    60%{
+        opacity: 0;
+        z-index: -1;
+    }
+    80%{
+        opacity: 0;
+        z-index: -1;
+    }
+    100%{
+        opacity: 0;
+        z-index: -1;
+    }
+}
+@keyframes fou{
+    0%{
+        opacity: 0;
+        z-index: -1;
+    }
+    20%{
+        opacity: 0;
+        z-index: -1;
+    }
+    40%{
+        opacity: 0;
+        z-index: -1;
+    }
+    60%{
+        opacity: 1;
+        top: 0px;
+        left: 0px;
+    }
+    80%{
+        opacity: 0;
+        z-index: -1;
+    }
+    100%{
+        opacity: 0;
+        z-index: -1;
+    }
+}
+@keyframes fiv{
+    0%{
+        opacity: 0;
+        z-index: -1;
+    }
+    20%{
+        opacity: 0;
+        z-index: -1;
+    }
+    40%{
+        opacity: 0;
+        z-index: -1;
+    }
+    60%{
+        opacity: 0;
+        z-index: -1;
+    }
+    80%{
+        opacity: 1;
+        top: 0px;
+        left: 0px;
+    }
+    100%{
+        opacity: 0;
+        z-index: -1;
+    }
+}
+h1{
+    text-align: center;
+}

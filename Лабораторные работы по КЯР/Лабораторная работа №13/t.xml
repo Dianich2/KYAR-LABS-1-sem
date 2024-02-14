@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="t.xsl" type="text/xsl"?>
+<tabliza>
+    <colonka>
+        <tx1>1345</tx1>
+        <tx2>457</tx2>
+        <tx3>678</tx3>
+        <tx4>789</tx4>
+    </colonka>
+    <colonka>
+        <tx1>1786</tx1>
+        <tx2>568</tx2>
+        <tx3>6456</tx3>
+        <tx4>7346</tx4>
+    </colonka>
+    <colonka>
+        <tx1>13235</tx1>
+        <tx2>4346</tx2>
+        <tx3>6457</tx3>
+        <tx4>234</tx4>
+    </colonka>
+</tabliza>

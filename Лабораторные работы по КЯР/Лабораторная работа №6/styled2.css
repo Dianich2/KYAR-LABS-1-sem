@@ -1,0 +1,16 @@
+img{
+    height: 270px;
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+figure{
+    margin: 0px 0px 0px 0px;
+    margin-inline-end: 0px;
+    width:370px;
+    display: inline-block;
+}
+figure figcaption{
+    font-size: 30px;
+    text-align: center;
+}

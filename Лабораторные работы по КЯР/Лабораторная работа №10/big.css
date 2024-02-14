@@ -1,0 +1,13 @@
+figcaption{
+    color: green;
+    font-size: 20px;
+    text-align: center;
+}
+img{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+figure{
+    display: inline-block;
+}

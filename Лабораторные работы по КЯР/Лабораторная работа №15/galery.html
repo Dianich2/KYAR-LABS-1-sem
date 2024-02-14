@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Galery</title>
+        <link rel="stylesheet" href="galery.css">
+    </head>
+    <body>
+        <img src="dog1.png" alt="" class="dog1">
+        <div class="text">
+            <p>Очень милая собачка!</p>
+        </div>
+        <img src="dog2.png" alt="" class="dog2">
+        <img src="dog3.png" alt="" class="dog3">
+    </body>
+    <script>
+        var x = false;
+        document.getElementsByClassName("dog1")[0].addEventListener('mouseover', function(){
+            document.getElementsByClassName("text")[0].style.display='inline-block'
+        });
+        document.getElementsByClassName("dog1")[0].addEventListener('mouseout', function(){
+            document.getElementsByClassName("text")[0].style.display='none'
+        });
+        document.getElementsByClassName("dog2")[0].addEventListener('click', function(){
+            if(!x){
+                document.getElementsByClassName("dog2")[0].style.border='10px red solid'
+                x = true
+            }
+            else{
+                document.getElementsByClassName("dog2")[0].style.border='none'
+                x = false 
+            }
+        });
+        var img1
+        document.getElementsByClassName("dog3")[0].addEventListener('mouseover', function(){
+            img1 = document.getElementsByClassName("dog3")[0].setAttribute('src',"dog4.png")
+        })
+        document.getElementsByClassName("dog3")[0].addEventListener('mouseout', function(){
+            img1 = document.getElementsByClassName("dog3")[0].setAttribute('src',"dog3.png")
+        })
+    </script>
+</html>

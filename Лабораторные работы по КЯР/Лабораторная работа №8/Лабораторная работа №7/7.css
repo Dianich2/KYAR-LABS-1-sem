@@ -1,0 +1,12 @@
+div{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    transition: color 5s linear 0s;
+}
+div:hover{
+    color:blue;
+}
+h1{
+    text-align: center;
+}

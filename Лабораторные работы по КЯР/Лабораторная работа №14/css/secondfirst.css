@@ -1,0 +1,26 @@
+* {
+  background: #BDB76B;
+}
+
+body h3 {
+  color: yellow;
+}
+
+div {
+  height: 30%;
+  width: 50%;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+}
+div h2 {
+  color: rgb(0, 250, 154);
+}
+
+#sp {
+  text-decoration: line-through;
+}
+
+img {
+  width: 1000px;
+}/*# sourceMappingURL=secondfirst.css.map */

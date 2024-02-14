@@ -1,0 +1,23 @@
+img{
+    width: 450px;
+    height: 400px;
+    margin-right: 30px;
+}
+img.dog1{
+    margin-left: 40px;
+}
+div.text{
+    display: none;
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    left: 40px;
+    top:0;
+}
+div.text p{
+    text-align: center;
+    width: 450px;
+    height: 400px;
+    font-size: 25px;
+    font-weight: bold;
+}

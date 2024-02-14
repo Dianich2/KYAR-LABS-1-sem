@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Заказ</title>
+        <link rel="stylesheet" href="forma.css">
+    </head>
+    <body>
+        <main>
+            <h1>Заказ</h1>
+            <form action="">
+                <label for="surname">Фамилия</label>
+                <input type="text" id="surname" class="data">
+                <label for="person_name">Имя</label>
+                <input type="text" id="person_name" class="data"> 
+                <label for="phone">Телефон</label>
+                <input type="text" id="phone" class="data">
+                <label for="delivery">Доставка</label>
+                <select id="delivery">
+                    <option value="-">-</option>
+                    <option value="С доставкой">С доставкой</option>
+                    <option value="Без доставки">Без доставки</option>
+                </select>
+                <label for="emai">Электронная почта</label>
+                <input type="email" id="emai" class="data">
+                <label for="adress">Адрес</label>
+                <input type="text" id="adress" class="data">
+                <input type="button" id="sub" value="Подтвердить заказ"/>
+                <button type="reset">Отменить заказ</button>
+            </form>
+        </main>
+        <footer id="output"></footer>
+    </body>
+    <script>
+        document.getElementById('sub').addEventListener('click', function(){
+            var surname = document.getElementById('surname').value;
+            var name = document.getElementById('person_name').value;
+            var phone = document.getElementById('phone').value;
+            var delivery = document.getElementById('delivery').value;
+            var email = document.getElementById('emai').value;
+            var adress = document.getElementById('adress').value;
+            var out = `<p>Фамилия: ${surname}</p>`;
+                out += `<p>Имя: ${name}</p>`;
+                out += `<p>Телефон: ${phone}</p>`;
+                out += `<p>Доставка: ${delivery}</p>`;
+                out += `<p>Электронная почта: ${email}</p>`;
+                out += `<p>Адрес: ${adress}</p>`;
+            document.getElementById('output').innerHTML= out;
+        })
+    </script>
+</html>

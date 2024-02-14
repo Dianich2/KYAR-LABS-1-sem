@@ -1,0 +1,27 @@
+p {
+  color: blue;
+  font-family: Arial;
+  font-size: 16pt;
+}
+
+table {
+  border: 1px;
+  width: 50%;
+}
+table tr {
+  background-color: aliceblue;
+}
+
+body {
+  background-color: khaki;
+}
+
+ul.punckt1 {
+  list-style-type: disc;
+}
+ul.punckt2 {
+  list-style-type: circle;
+}
+ul.punckt3 {
+  list-style-type: square;
+}/*# sourceMappingURL=indexfirst.css.map */

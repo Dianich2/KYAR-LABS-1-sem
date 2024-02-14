@@ -1,0 +1,31 @@
+nav ul{
+    position: absolute;
+    list-style-type: none;
+}
+.first{
+ border: 1px solid black;
+    padding: 10px 0px 10px 10px;
+    width: 150px;
+    background-color: yellow;   
+}
+nav.nav ul li ul{
+    visibility: hidden;
+    list-style-type: none;
+    margin-top: 11px;   
+}
+nav.nav ul li ul li{
+    border-collapse: collapse;
+    border:2px dashed black;
+    padding: 10px 0px 10px 10px;
+    margin-left: -51px;
+    text-align: left;
+    width:100px;
+    background-color: rgb(251, 182, 126);
+}
+nav.nav li:hover ul {
+    visibility: visible;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}

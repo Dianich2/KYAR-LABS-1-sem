@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="animals">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="head">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nkind_of_animal" type="xs:string"></xs:element>
+                        <xs:element name="ndescription" type="xs:string"></xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="animal">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="kind_of_animal" type="xs:string"></xs:element>
+                        <xs:element name="description" type="xs:string"></xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="animal">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="kind_of_animal" type="xs:string"></xs:element>
+                        <xs:element name="description" type="xs:string"></xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="animal">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="kind_of_animal" type="xs:string"></xs:element>
+                        <xs:element name="description" type="xs:string"></xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="animal">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="kind_of_animal" type="xs:string"></xs:element>
+                        <xs:element name="description" type="xs:string"></xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

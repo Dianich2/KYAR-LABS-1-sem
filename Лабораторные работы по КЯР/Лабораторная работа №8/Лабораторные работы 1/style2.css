@@ -1,0 +1,42 @@
+h1{
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 20;
+}
+table{
+    margin: auto;
+    border-collapse:separate;
+    text-align: center;
+    color: white;
+    empty-cells: hide;
+    border-spacing: 0px;
+}
+
+table th{
+    border: 2px solid grey;
+    font-size: 1.2em;
+    width: 50px;
+}
+table tr{
+    border: 2px solid grey; 
+}
+table tr th{
+    background-color: darkblue;
+}
+table td{
+    border: 2px solid grey; 
+}
+table td:first-child{
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+table td:nth-child(2){
+    background-color: #00BFFF;
+}
+table td:nth-child(3){
+    background-color: purple;
+}
+table td:last-child{
+    background-color: green;
+}

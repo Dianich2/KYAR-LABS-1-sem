@@ -1,0 +1,59 @@
+div{
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    font-size:30pt;
+    border-width: 10px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    line-height: 150%;
+    width: 40px;
+}
+.fi{
+    border-style: outset;
+    border-color: rgb(255, 0, 0);
+}
+.se{
+    border-style: dashed;
+    border-color: rgb(0, 255, 0);
+}
+.th{
+    border-style: dotted;
+    border-color: rgb(0, 0, 255);
+}
+.for{
+    border-style: double;
+    border-color: rgb(0, 225, 255);
+}
+.fiv{
+    border-style: groove;
+    border-color: rgb(247, 79, 222);
+}
+.sixt{
+    border-style: inset;
+    border-color: rgb(255, 255, 0);
+}
+p span{
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    background: #FFA500;
+    border: 5px solid #FF4500;
+}
+.p1{
+    width: 400px;
+    text-align: center;
+    border: 3px solid #FF7F50;
+}
+.p2{
+    border: 5px solid red;
+    border-radius: 20px/40px;
+    box-shadow: 2px 2px 8px 8px rgba(0, 0, 0, .5);
+    overflow: auto;
+}
+.p3{
+    border: 3px solid #FF6347;
+}
+
+

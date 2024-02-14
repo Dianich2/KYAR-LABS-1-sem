@@ -1,0 +1,37 @@
+animals{
+    display: table;
+    border-collapse: collapse;
+}
+head{
+    display: table-row;
+    background-color: rgb(192, 189, 189);
+    font-weight: bold;
+    font-size: 20px;
+}
+nkind_of_animal{
+    display: table-cell;
+    border: 2px solid black;
+    width: 150px;
+}
+kind_of_animal{
+    display: table-cell;
+    border: 2px solid black;
+    width: 150px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(244, 242, 242);
+}
+ndescription{
+    display: table-cell;
+    border: 2px solid black;
+    width: 1400px;
+}
+description{
+    display: table-cell;
+    border: 2px solid black;
+    width: 1400px;
+    font-size: 20px;
+}
+animal{
+    display: table-row;
+}

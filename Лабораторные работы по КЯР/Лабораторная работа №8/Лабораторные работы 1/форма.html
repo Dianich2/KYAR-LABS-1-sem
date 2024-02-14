@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Регистрация постоянного клиента</title>
+        <link rel="stylesheet" href="style3.css">
+    </head>
+    <body>
+        <form>
+            <h2>Регистрация постоянного клиента</h2>
+            <label for="surname" class="label">Фамилия: </label><input type="text" name="surname" id="surname"><br>
+            <label for="name" class="label">Имя: </label><input type="text" name="name" id="name"><br>
+            <label for="patronimic" class="label">Отчество: </label><input type="text" name="patronimic" id="patronimic"><br>
+            <label for="age" class="label">Ваш возраст: </label><input type="text" name="age" id="age"><br>
+            <label for="pol" class="label">Пол: </label>
+            <input type="checkbox" name="men" id="men"><label for="men">мужской</label>
+            <input type="checkbox" name="women" id="women"><label for="women">женский</label><br>
+            <label for="email" class="label">Email: </label><input type="email" name="email" id="email"><br>
+            <label for="country" class="label">Страна проживания: </label><input type="text" name="country" id="country"><br>
+            <label for="question" class="label">Откуда вы узнали о нас?</label>
+            <select id="question">
+                <option>Выберите вариант</option>
+                <option>Рассказал друг</option>
+                <option>Прочитал в интернете</option>
+                <option>Прочитал в газете</option>
+                <option>Видел рекламу по телевизору</option>
+            </select><br>
+            <label for="date" class="label">Дата заполнения</label><input type="date" name="date" id="date"><br>
+            <button type="submit" name="registr">Регистрация</button>
+            <button type="reset" name="reset">Отмена</button>
+        </form>
+    </body>
+</html>

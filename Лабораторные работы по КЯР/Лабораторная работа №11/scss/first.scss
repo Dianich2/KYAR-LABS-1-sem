@@ -1,0 +1,193 @@
+@mixin border{
+    border: 2px solid black;
+}
+body{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+}
+.header{
+    background-color: gray;
+    @include border;
+}
+.footer{
+    @include border;
+    position: absolute;
+    bottom: -80px;
+    width: 100%;
+    background-color: white;
+}
+.logo{
+    position: relative;
+    left:20px;
+    top: 5px;
+    display: inline-block;
+    width:100px;
+    height:100px; 
+    @include border;
+    img{
+        width:100px;
+        height: 100px;  
+    }
+}
+ul.nav{
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+    left: 200px;
+    top: -35px;
+    margin: 0px 0px 0px 0px;
+    li{
+        background-color: aliceblue;
+        width: 150px;
+        display: inline;
+        margin-right: 120px;
+        font-size: 30px;
+        @include border;
+        text-align: center;
+        a{
+            display: inline-block;
+            width: 150px;
+            padding: 5px;
+        }
+    }
+}
+@function size_zag($w){
+    $size:35px;
+    @if($w == 1){
+        @return $size;
+    }
+    @if($w == 2){
+        @return $size * 0.4;
+    }
+    @if($w == 3){
+        @return $size * 0.5;
+    }
+}
+h1{
+    background-color: white;
+   @include border();
+   font-size: size_zag(1);
+   text-align: center;
+   width: 950px;
+}
+%color_div_tx{
+    background-color: rgb(217, 221, 214);
+}
+div.text{
+    display: flex;
+    flex-direction: row;
+    .tx{
+        @extend %color_div_tx;
+        @include border();
+        width: 300px;
+        font-size: size_zag(2);
+        height: auto;
+        align-items: baseline; 
+        margin-right: 20px;
+    }
+}
+@mixin for_img{
+    width: 220px;
+    height: 150px;
+    @include border;
+    margin-right: 20px;
+}
+div.galerya{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    img{
+        @include for_img();
+    }
+}
+@mixin lab{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: size_zag(3);
+    display: inline-block;
+    color:black;
+}
+form{
+    @extend %color_div_tx;
+    @include border;
+    margin-top: -600px;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    left: 1000px;
+    label{
+        @include lab();
+        width: 200px;
+    }
+    input[type="text"]{
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+    select{
+        width: 170px;
+        height: 30px;
+        text-align: center;
+        font-size: size_zag(2);
+        vertical-align: top;
+        margin-left: 50px;
+    }
+    button{
+        width: 150px;
+        border-radius: 10px;
+        margin-top: 30px;
+        &.first_button{
+           margin-left: 180px; 
+        }
+    }
+}
+.main{
+    margin-bottom: 20px;
+    display: block;
+    height: 100%;
+
+}
+h2{
+    background-color: white;
+    @include border();
+    position: absolute;
+    right: 10px;
+    width: 500px;
+    text-align: center;
+    margin-top: 10px;
+}
+@mixin for_my_pet_text{
+    @include border();
+        @extend %color_div_tx;
+        width: 250px;
+        position: absolute;
+        right: 0px;
+        height: 150px;
+        margin-right: 5px;
+        font-size: size_zag(3);
+        text-align: center;
+        p{
+            margin-top: 40px;  
+        } 
+}
+div.my_pet{
+    background-color: white;
+    @include border();
+    position: absolute;
+    right: 10px;
+    top:390px;
+    width: 500px;
+    img{
+        display: inline;
+        margin: 5px 10px;
+        @include for_img();
+    }
+    .first_pet{
+        top: 5px;
+        @include for_my_pet_text();
+    }
+    .second_pet{
+        top:172px;
+        @include for_my_pet_text();
+    }
+}

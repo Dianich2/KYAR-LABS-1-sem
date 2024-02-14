@@ -1,0 +1,22 @@
+div.grid{
+    display: grid;
+    grid-template-columns: 30px 270px 270px;
+    grid-template-rows: 300px;
+    grid-gap: 10px;
+}
+.fir{
+    font-size: 30px;
+    text-align: center;
+    border: 3px solid black;
+    vertical-align: bottom;
+}
+.two{
+    font-size: 16px;
+    border: 3px solid black;
+    text-align: left;
+}
+h3{
+    text-align: center;
+    margin: 0px 0px;
+    text-decoration: underline;
+}

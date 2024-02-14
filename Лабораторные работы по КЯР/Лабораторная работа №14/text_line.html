@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>text_and_line</title>
+    </head>
+    <body>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800" height="300">
+            <defs>
+            <path id="line_text" d="M 0,200 Q 200,50 400,200 T 800,200" fill="none" stroke="black"/>
+            </defs>
+            <use xlink:href="#line_text"/>
+                <text x="450" y="75" text-anchor="middle" font-size="36px">
+                    <textPath xlink:href="#line_text">
+                        <tspan fill="blue">Первое задание в лабораторной работе №14 по КЯРу</tspan>
+                    </textPath>
+                </text>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000" height="300">
+            <circle cx="100" cy="100" r="50" fill="blue"></circle>
+            <rect x="160" y="50" fill="red" width="120px" height="100"></rect>
+            <ellipse cx="390" cy="100" rx="100" ry="50" fill="green"></ellipse>
+            <polygon points="500,150 560,50 620,150" fill="yellow"></polygon>
+            <polyline points="0,160 300,160 250,200 630,200" fill="none" stroke="black" stroke-width="2px"></polyline>
+        </svg>
+    </body>
+</html>

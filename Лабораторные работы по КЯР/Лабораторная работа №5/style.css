@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    color:black;
+}
+table{
+    border: 4px solid black;
+    border-collapse: collapse;
+}
+th{
+    border: 4px solid black;
+}
+tr{
+    border: 4px solid black;
+}
+td{
+    border: 4px solid black;
+}
+table tr:first-child{
+    background: rgb(67, 136, 210);
+}
+table td:first-child{
+    background: rgb(163, 160, 160);
+}
+

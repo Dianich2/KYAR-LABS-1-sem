@@ -1,0 +1,120 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    min-height: 50px;
+}
+.zagolovok{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    padding: 20px 20px;
+
+}
+.zagolovok span{
+    font-size: 25px;
+}
+.nav{
+    display: flex;
+    width: 750px;
+    padding: 0px 40px;
+}
+.nav ul{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.nav ul li{
+    padding: 20px 20px;
+    align-self: center;
+}
+.burger{
+    display: none;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+    width: 40px;
+    height: 20px;
+    left:10px;
+}
+.burger span{
+    transform: scale(1);
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+.burger::before, .burger::after{
+    position:absolute;
+    height: 2px;
+    background-color: black;
+    width: 100%;
+    content: ' ';
+    margin-right: 0px;
+}
+.burger::before{
+    top:2px;
+}
+.burger::after{
+    bottom:0px;
+}
+.burger.active span{
+    transform: scale(0);
+}
+.burger.active::before{
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+.burger.active::after{
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
+@media(max-width:550px){
+    .container{
+        display: flex;
+        height: max-content;
+        flex-direction: column;
+    }
+    .burger{
+        display: flex;
+    }
+    .nav{
+        display: none;
+        position: relative;
+        top: 0px; bottom: 0px; left: 0px; right:0;
+    }
+    .nav ul{
+        display: flex; 
+        flex-direction: column;
+        row-gap: 15px;
+        padding: 0px 0px;
+        text-align: center;
+        position: relative;
+        align-items: center;
+        width: 88%;
+        text-align: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    .zagolovok{
+        border: 2px solid black; 
+        width:500px;
+        position: relative;
+        top: 0; left: 0; right: 0;bottom: 0;
+        z-index: 2;
+    }
+    .nav ul li{
+        position: relative;
+        width: 100%;
+        border: 2px solid black;
+        width: 80%;
+    }
+}
+.open{
+    display: flex !important;
+    width: 550px;
+    justify-content: center;
+}

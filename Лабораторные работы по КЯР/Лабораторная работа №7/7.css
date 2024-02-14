@@ -1,0 +1,21 @@
+div{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    transition: color 5s linear 0s;
+}
+div:hover{
+    color:blue;
+}
+h1{
+    text-align: center;
+    animation: zag 2s linear infinite alternate;
+}
+@keyframes zag{
+    0%{
+        filter: opacity(0);
+    }
+    100%{
+        filter: opacity(0.8);
+    }
+}

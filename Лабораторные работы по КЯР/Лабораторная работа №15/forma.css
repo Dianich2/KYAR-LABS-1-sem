@@ -1,0 +1,49 @@
+label{
+    margin-right: 80px;
+    margin-top: 20px;
+    width: 150px;
+    display: inline-block;
+    font-size: 25px;
+}
+form{
+    margin: 0 auto;
+    width: 500px;
+    height: 440px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+}
+input[type="text"],input[type="tel"],select,input[type="email"]{
+    width: 200px;
+    height: 20px;
+    display: inline-block;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+input[type="button"]{
+    border-radius: 10px;
+    color: white;
+    background: blue;
+    width: 180px;
+    height: 40px;
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+button[type="reset"]{
+    border-radius: 10px;
+    color: black;
+    background: grey;
+    width: 120px;
+    height: 40px;
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+footer{
+    width: 500px;
+    height: 200px;
+}

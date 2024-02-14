@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="tree.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.69219276"
+     inkscape:cx="397.28818"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path3"
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       inkscape:transform-center-x="0.05477522"
+       inkscape:transform-center-y="-10.937468"
+       d="M 71.59473 3.3129941 L 39.811655 54.748384 L 57.139114 54.735901 L 33.549541 95.40797 L 62.941965 95.466226 L 62.941965 115.97599 L 80.692277 115.97599 L 80.692277 95.501596 L 110.08512 95.559852 L 86.611392 54.715095 L 103.4618 54.703132 L 71.59473 3.3129941 z "
+       transform="matrix(1.2489756,0,0,0.99350415,7.3471489,15.503245)" />
+   <path d="M 57,70 A5,5,0,1,1,57,80 A5,5,90,1,1,57,70 
+   M 137,70 A5,5,0,1,1,137,80 A5,5,90,1,1,137,70 
+   M 49,110 A5,5,0,1,1,49,120 A5,5,90,1,1,49,110
+   M 145,110 A5,5,0,1,1,145,120 A5,5,90,1,1,145,110">
+      <animate attributeName="fill" attributeType="XML" from="yellow" to="red" dur="2s" repeatCount="indefinite"/>
+   </path>
+   <path d="M 80,69 A2,2,0,1,1,80,73 A2,2,90,1,1,80,69
+   M 85,70 A2,2,0,1,1,85,74 A2,2,90,1,1,85,70
+   M 90,69 A2,2,0,1,1,90,73 A2,2,90,1,1,90,69
+   M 95,70 A2,2,0,1,1,95,74 A2,2,90,1,1,95,70
+   M 100,69 A2,2,0,1,1,100,73 A2,2,90,1,1,100,69
+   M 105,70 A2,2,0,1,1,105,74 A2,2,90,1,1,105,70
+   M 110,69 A2,2,0,1,1,110,73 A2,2,90,1,1,110,69
+   M 115,70 A2,2,0,1,1,115,74 A2,2,90,1,1,115,70">
+      <animate attributeName="fill" attributeType="XML" from="yellow" to="red" dur="2s" repeatCount="indefinite"/>
+   </path>
+   <path d="M 96.7,19 L90.7,13 L96.7,7 L102.7,13 L96.7,19">
+      <animate attributeName="fill" attributeType="XML" from="pink" to="red" dur="2s" repeatCount="indefinite"/>
+   </path>
+  </g>
+</svg>

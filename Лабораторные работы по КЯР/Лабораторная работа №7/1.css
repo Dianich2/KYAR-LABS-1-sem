@@ -1,0 +1,31 @@
+img{
+    display: inline-block;
+    height: 250px;
+    width: 350px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.one:hover{
+    transform: scale(0.5);
+}
+.two:hover{
+    transform: rotate(45deg);
+}
+.three:hover{
+    transform: translate(50px, 0px);
+}
+.four:hover{
+    transform: rotateY(-20deg);
+}
+h1{
+    text-align: center;
+    animation: zag 2s linear infinite alternate;
+}
+@keyframes zag{
+    0%{
+        filter: opacity(0);
+    }
+    100%{
+        filter: opacity(0.8);
+    }
+}
